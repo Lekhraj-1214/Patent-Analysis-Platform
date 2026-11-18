@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-base: #f7f8fa;
+    --bg-surface: #ffffff;
+    --bg-elevated: #f2f3f5;
+    --primary: #2563eb;
+    --primary-hover: #1d4ed8;
+    --primary-glow: rgba(37, 99, 235, 0.2);
+    --success: #059669;
+    --warning: #d97706;
+    --error: #dc2626;
+    --text-primary: #111827;
+    --text-secondary: #4b5563;
+    --text-muted: #9ca3af;
+    --border: #e5e7eb;
+    --border-active: #2563eb;
+    --primary-bg: #eff6ff;
+    --primary-border: #bfdbfe;
+    --accent-bg: #ecfdf5;
+    --accent-border: #a7f3d0;
+    --warning-bg: #fffbeb;
+    --warning-border: #fde68a;
+    --font-mono: "IBM Plex Mono", "SF Mono", monospace;
+  }
+
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  html,
+  body {
+    max-width: 100vw;
+    overflow-x: hidden;
+    font-family: var(--font-pretendard), "Pretendard", "Noto Sans KR", sans-serif;
+    background-color: #eef0f4;
+    color: var(--text-primary);
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
